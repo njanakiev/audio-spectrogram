@@ -9,9 +9,11 @@ The next step for the implementation was to use the input from the microphone an
 To realize the signal processing as well as the visualization, the project uses the methods from the OpenCV library. For the visualization, the project simply uses a circular buffer where each new generated line represents an incoming element. The highgui visualizes then the whole spectrogram that is already generated. When it reaches the end, it simply discards the last elements.
 
 ![screenshot 01](assets/screenshot_01.png)
+
 This screenshot shows the audio input and the frequency spectrom recorded from the microphone.
 
 ![screenshot 02](assets/screenshot_02.png)
+
 This screenshot shows the spectrogram for the input from a human hearing test which ranged from 20 Hz to 20 kHz.
 
 # License
